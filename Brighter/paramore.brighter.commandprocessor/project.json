@@ -18,6 +18,7 @@
 			"frameworkAssemblies": {
 				"System": "4.0.0.0",
 				"System.Core": "4.0.0.0",
+                "System.Configuration": "4.0.0.0",
 				"Microsoft.CSharp": "4.0.0.0"
 		    }
 	    },
@@ -28,6 +29,7 @@
             "frameworkAssemblies": {
                 "System": "4.0.0.0",
 				"System.Core": "4.0.0.0",
+                "System.Configuration": "4.0.0.0",
 				"Microsoft.CSharp": "4.0.0.0"
             }
         },

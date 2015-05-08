@@ -9,11 +9,13 @@
     ".NETFramework,Version=v4.5": [
       "framework/System >= 4.0.0.0",
       "framework/System.Core >= 4.0.0.0",
+      "framework/System.Configuration >= 4.0.0.0",
       "framework/Microsoft.CSharp >= 4.0.0.0"
     ],
     "DNX,Version=v4.5.1": [
       "framework/System >= 4.0.0.0",
       "framework/System.Core >= 4.0.0.0",
+      "framework/System.Configuration >= 4.0.0.0",
       "framework/Microsoft.CSharp >= 4.0.0.0"
     ],
     "DNXCore,Version=v5.0": [
