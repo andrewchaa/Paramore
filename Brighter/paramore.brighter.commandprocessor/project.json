@@ -1,0 +1,51 @@
+{
+	"authors": [ "Ian Cooper" ],
+    "owners": [ "Ian Cooper" ],
+    "projectUrl": "http://iancooper.github.io/Paramore",
+    "licenseUrl": "http://ianhammondcooper.mit-license.org",
+    "summary": "A command dispatcher and processor in one",
+    "description": "The Command Dispatcher pattern is an addition to the Command design pattern that decouples the dispatcher for a service from its execution. A Command Dispatcher component maps commands to handlers. A Command Processor pattern provides a  framework for handling orthogonal concerns such as logging, timeouts, or circuit breakers",
+    "version": "1.0.0",
+    "title": "Brighter Command Dispatcher Processor",
+    "tags": [ "Command", "Processor", "Dispatcher" ],
+	"dependencies": {
+		"Polly":  "2.2.1.0",
+		"Newtonsoft.Json": "6.0.0.0"
+		},
+	"frameworks": {
+		"net45": {
+            "compilationOptions": { "define": ["LIBLOG_PUBLIC"], "warningsAsErrors": true },
+			"frameworkAssemblies": {
+				"System": "4.0.0.0",
+				"System.Core": "4.0.0.0",
+				"Microsoft.CSharp": "4.0.0.0"
+		    }
+	    },
+		"dnx451": {
+            "compilationOptions": { "define": ["LIBLOG_PUBLIC"], "warningsAsErrors": true },
+            "dependencies": {
+            },
+            "frameworkAssemblies": {
+                "System": "4.0.0.0",
+				"System.Core": "4.0.0.0",
+				"Microsoft.CSharp": "4.0.0.0"
+            }
+        },
+		"dnxcore50": {
+            "compilationOptions": { "define": ["LIBLOG_PUBLIC", "LIBLOG_PORTABLE"], "warningsAsErrors": true },
+            "dependencies": {
+                "System.Text.RegularExpressions": "4.0.10-beta-*",
+				"System.Collections.Concurrent": "4.0.10-beta-*",
+                "System.Linq": "4.0.0-beta-*",
+                "Microsoft.CSharp": "4.0.0-beta-*",
+                "System.Reflection.TypeExtensions": "4.0.0-beta-*",
+                "System.Reflection.Extensions": "4.0.0-beta-*",
+                "System.Runtime.Extensions": "4.0.10-beta-*",
+                "System.Runtime.InteropServices": "4.0.10-beta-*",
+                "System.Globalization": "4.0.10-beta-*",
+                "System.Threading.Timer": "4.0.0-beta-*",
+                "System.Diagnostics.Debug": "4.0.10-beta-*"
+               }
+	     }
+    }
+}
